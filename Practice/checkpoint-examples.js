@@ -1,3 +1,4 @@
+console.log('Linear Time (O(n))');
 function sum(array) {
   let sum = 0,
     ticks = 1;
@@ -117,6 +118,7 @@ console.log(
 
 console.log('---');
 
+console.log('Constant Time O(1)');
 function getRandomItem(array) {
   let ticks = 0;
   // Get a random number and access that element in the array
@@ -236,6 +238,7 @@ console.log(
 
 console.log('---');
 
+console.log('Logarithmic Time O(log(n))');
 function howManyLessThanNitems(arr, n) {
   let ticks = 0;
   /* If the 1st element in the array is greater than `n`, return 0,
@@ -390,6 +393,7 @@ console.log(
 
 console.log('---');
 
+console.log('Linear Time O(n)');
 function findMin(array) {
   let min = array[0],
     ticks = 1;
@@ -514,6 +518,7 @@ console.log(
 
 console.log('---');
 
+console.log('Polynomial time O(n^k)');
 function hasDuplicates(array) {
   let ticks = 0,
     result = false;
@@ -641,6 +646,7 @@ console.log(
 
 console.log('---');
 
+console.log('Exponential Time O(2^n)');
 function countTriangle(layers) {
   let ticks = 1;
   let count = 0; // the number of dots we've counted so far
